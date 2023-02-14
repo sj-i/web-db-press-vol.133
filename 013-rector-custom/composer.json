@@ -1,0 +1,13 @@
+{
+    "require": {
+        "nikic/php-parser": "^4.15"
+    },
+    "require-dev": {
+        "rector/rector": "^0.15.11"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RectorRules\\": "rector/"
+        }
+    }
+}
